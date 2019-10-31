@@ -1,0 +1,10 @@
+<launch>
+  <node name="scanListener" pkg="human_detect" type="scanListener.py" output="screen">
+    <rosparam file="$(find human_detect)/config/config.yaml" command="load" />
+  </node>
+
+  <node name="image_converter" pkg="human_detect" type="cameraListener.py" output="screen">
+      <rosparam file="$(find human_detect)/config/config.yaml" command="load" />
+  </node>
+
+</launch>
