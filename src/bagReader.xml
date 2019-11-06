@@ -1,0 +1,6 @@
+<launch>
+  <node name="bagListener" pkg="human_detect" type="readBag.py" output="screen">
+  </node>
+
+
+</launch>

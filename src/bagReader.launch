@@ -1,0 +1,5 @@
+<launch>
+  <node name="readBag" pkg="human_detect" type="readBag.py" output="screen">
+    <param name="bag_file" value="$(find human_detect)/src/1.bag" /> 
+</node>
+</launch>

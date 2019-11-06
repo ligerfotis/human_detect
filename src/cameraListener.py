@@ -25,6 +25,7 @@ class image_converter:
 
 
 
+
     def checkChange(self, frame):
         #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         if self.first_frame is None:
