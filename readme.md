@@ -55,7 +55,7 @@ This can be observed by the unstable frame rate on rviz.
 
         roslaunch human_detect bagReader.launch            
     
-4. In a new terminal open rviz and find the published topics `/thresholded_image` and `new_scan`:
+4. In a **new** terminal open rviz and find the published topics `/thresholded_image` and `new_scan`:
 
         rviz
                  
